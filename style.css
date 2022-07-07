@@ -100,5 +100,42 @@ text-align: center;
     background-color: firebrick;
     transition: .3s;
 }
+.sec-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.sec-3 .heading-3{
+    text-align: center;
+    font-size: 24px;
+}
+.logo{
+    justify-content: space-evenly;
+}
+.last{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
 
+}
+.finis h1{
+    font-size: 30px;
+    font-family:'Splash', cursive;
+    color: brown;
+    text-align: center;
+    margin-top: 30px;
 
+}
+.finis p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}

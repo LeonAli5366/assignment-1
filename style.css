@@ -45,3 +45,60 @@
     background-color: green;
     transition: .3s;
 }
+.sec-2{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    position: relative;
+    background-size: cover;
+}
+.heading-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.heading-2 h1{
+    font-size: 48px;
+    text-align: center;
+}
+.heading-2 p{
+    font-size: 18px;
+text-align: center;
+    color: rgb(61, 54, 54);
+
+}
+.do a{
+    text-decoration: none;
+    background-color: rgb(255, 245, 233);
+    color: rgb(107, 98, 98);
+    padding: 40px 30px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.an a{
+    text-decoration: none;
+    background-color: rgb(49, 172, 114);
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.do a:hover{
+    color: rgb(189, 52, 52);
+    transition: .3s;
+    background: rgb(128, 54, 95);
+}
+.an a:hover{
+    color: rgb(22, 22, 94);
+    background-color: firebrick;
+    transition: .3s;
+}
+
+
